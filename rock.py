@@ -30,7 +30,9 @@ player2_name = raw_input("Enter player2 name: ")
 
 for x in range(3):
     choice1 = choice()
+    print("{} chooses: {}!!".format(player1_name, choice1))
     choice2 = choice()
+    print("{} chooses: {}!!".format(player2_name, choice2))
     compare(choice1, choice2)
 
 print(" {} and {} thanks for playing!".format(player1_name, player2_name))
