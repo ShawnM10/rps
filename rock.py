@@ -24,7 +24,13 @@ def compare(choice1, choice2):
         elif choice2 == 'paper':
             print('Scissors wins!')
 
+
+player1_name = raw_input("Enter player1 name: ")
+player2_name = raw_input("Enter player2 name: ")
+
 for x in range(3):
     choice1 = choice()
     choice2 = choice()
     compare(choice1, choice2)
+
+print(" {} and {} thanks for playing!".format(player1_name, player2_name))
